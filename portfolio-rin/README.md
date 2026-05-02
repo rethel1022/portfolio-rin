@@ -38,9 +38,9 @@ portfolio-rin/
   README.md
 ```
 
-内部確認用の補助ページは残していますが、提出時に案内する導線は上記の root 直下ページに統一しています。
+内部確認用の補助ページは残していますが、提出時に案内する導線は上記の root 直下ページに統一しています。GitHub Pagesでは `_config.yml` の `exclude` で内部確認用ページ、重複詳細ページ、スクリーンショット出力を公開対象外にしています。
 
-公開ナビは、トップ、和雑貨EC、IT営業支援、ファッションEC、AI活用、概要1枚に統一しています。`docs/job-alignment.html` と `docs/interview-script.html` は内部確認用として残していますが、提出用の公開ナビからはリンクしません。
+公開ナビは「トップ」「Case 01」「Case 02」「Case 03」「AI活用」「チェック」「概要1枚」に統一しています。内部確認用資料は提出用の公開ナビ、README、主要CTAからリンクしません。
 
 ## 3ケースの概要
 
@@ -100,7 +100,7 @@ AIは、制作を丸投げするためではなく、案出し、文章整理、
 - `portfolio-summary.html`
 - `README.md`
 
-`docs/interview-script.html`、`docs/job-alignment.html`、`docs/portfolio-guide.html` は内部確認用資料として残していますが、トップページやグローバルナビから直接リンクしません。
+内部確認用資料、`works/` 配下の重複詳細ページ、`report/` と `output/` のスクリーンショット出力は提出前の確認用として残していますが、GitHub Pagesの公開対象から除外します。
 
 ## ローカルでの見方
 

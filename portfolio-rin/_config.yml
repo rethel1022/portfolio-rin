@@ -1,0 +1,8 @@
+title: EC・Web運用サポート ポートフォリオ
+exclude:
+  - docs
+  - works
+  - report
+  - output
+  - .DS_Store
+  - "**/.DS_Store"
