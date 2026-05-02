@@ -13,15 +13,16 @@
   <body>
     <header class="site-header">
       <div class="container">
-        <a class="site-brand" href="../../index.html">応募用ポートフォリオ</a>
+        <a class="site-brand" href="../../index.html">EC・Web運用サポート ポートフォリオ</a>
         <button class="nav-toggle" type="button" aria-label="メニューを開閉" aria-expanded="false"></button>
-        <nav class="site-nav" aria-label="Case 03内ナビゲーション">
-          <a href="index.html">Case概要</a>
-          <a href="campaign-page.html">キャンペーンLP</a>
-          <a href="mailmagazine.html">メルマガ</a>
-          <a href="update-checklist.html" aria-current="page">更新チェック</a>
-          <a href="../../docs/ai-report.html">AI活用</a>
-        </nav>
+        <nav class="site-nav" aria-label="主要ナビゲーション">
+        <a href="../../index.html">トップ</a>
+        <a href="../../case-wazakka-ec.html">和雑貨EC</a>
+        <a href="../../case-it-sales-pr.html">IT営業支援</a>
+        <a href="../../case-fashion-ec.html" aria-current="page">ファッションEC</a>
+        <a href="../../ai-report.html">AI活用</a>
+        <a href="../../portfolio-summary.html">概要1枚</a>
+      </nav>
       </div>
     </header>
 
@@ -86,6 +87,7 @@
                   <th scope="col">クリック数</th>
                   <th scope="col">CTR</th>
                   <th scope="col">流入数</th>
+                  <th scope="col">購入数</th>
                   <th scope="col">CVR</th>
                   <th scope="col">売上</th>
                   <th scope="col">気づき</th>
@@ -100,10 +102,11 @@
                   <td>620</td>
                   <td>5.0%</td>
                   <td>510</td>
+                  <td>11</td>
                   <td>2.1%</td>
                   <td>128,000円</td>
-                  <td>サイズ安心の文言でクリックが伸びた</td>
-                  <td>商品ページ冒頭にもサイズ表導線を追加する</td>
+                  <td>「サイズ安心」の文言でクリックは伸びたが、商品ページ到達後にサイズ表を探す動きが多い想定。</td>
+                  <td>商品ページ冒頭とCTA近くにサイズ表・スタッフ着用レビューへの導線を追加する。</td>
                 </tr>
                 <tr>
                   <th scope="row">2026-04-05</th>
@@ -112,10 +115,11 @@
                   <td>356</td>
                   <td>4.0%</td>
                   <td>302</td>
+                  <td>8</td>
                   <td>2.8%</td>
                   <td>162,000円</td>
-                  <td>件名の割引条件は伝わったが対象商品確認が多い</td>
-                  <td>メール本文の対象商品リストを上部へ移動する</td>
+                  <td>件名の割引条件は伝わったが、対象商品と対象外条件の確認が多い想定。</td>
+                  <td>メール本文上部に対象商品リスト、対象外条件、税込価格の注記をまとめて表示する。</td>
                 </tr>
                 <tr>
                   <th scope="row">2026-04-12</th>
@@ -124,10 +128,11 @@
                   <td>312</td>
                   <td>6.0%</td>
                   <td>280</td>
+                  <td>8</td>
                   <td>3.0%</td>
                   <td>98,000円</td>
-                  <td>カラー名を入れた通知は反応が高い</td>
-                  <td>在庫数と販売開始時刻を配信前に再確認する</td>
+                  <td>カラー名を入れた通知は反応が高いが、在庫切れが早いと不満につながる想定。</td>
+                  <td>配信直前に在庫数、販売開始時刻、リンク先の商品IDを再確認する。</td>
                 </tr>
                 <tr>
                   <th scope="row">2026-04-20</th>
@@ -136,10 +141,11 @@
                   <td>288</td>
                   <td>3.0%</td>
                   <td>240</td>
+                  <td>5</td>
                   <td>1.9%</td>
                   <td>76,000円</td>
-                  <td>終了日時は伝わるが、返品案内への導線が弱い</td>
-                  <td>CTA近くに返品・配送案内リンクを追加する</td>
+                  <td>終了日時は伝わるが、返品・配送案内まで見ずに離脱する人がいる想定。</td>
+                  <td>CTA近くに返品・配送案内リンクと、最終発送目安の短い注記を追加する。</td>
                 </tr>
               </tbody>
             </table>
@@ -173,6 +179,25 @@
                 <li>AIで出したチェック案を本人が見直したか</li>
               </ul>
             </article>
+          </div>
+          <div class="notice stack-top">
+            <h3>スマホ表示確認</h3>
+            <ul class="checklist">
+              <li>360px幅で横スクロールや文字の重なりがないか</li>
+              <li>CTAが下に埋もれず、商品情報・価格・在庫の近くにあるか</li>
+              <li>バナー内の文字と商品名が小さすぎないか</li>
+              <li>表は横スクロールでき、見出しと数値が読み取れるか</li>
+            </ul>
+          </div>
+          <div class="notice stack-top-sm">
+            <h3>公開前に防ぎたいミス例</h3>
+            <ul class="checklist">
+              <li>セール終了日がLPとメルマガで違う</li>
+              <li>バナーのリンク先が旧ページのまま</li>
+              <li>税込表記と税抜表記が混在</li>
+              <li>在庫切れ商品をSNSで告知してしまう</li>
+              <li>スマホでCTAが下に埋もれる</li>
+            </ul>
           </div>
         </div>
       </section>
