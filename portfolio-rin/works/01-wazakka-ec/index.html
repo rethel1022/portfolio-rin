@@ -10,17 +10,18 @@
   <body>
     <header class="site-header">
       <div class="container">
-        <a class="site-brand" href="../../index.html">応募用ポートフォリオ</a>
+        <a class="site-brand" href="../../index.html">EC・Web運用サポート ポートフォリオ</a>
         <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false">
           <span class="visually-hidden">メニューを開閉</span>
         </button>
-        <nav class="site-nav" id="site-nav" aria-label="グローバルナビゲーション">
-          <a href="../../index.html">トップ</a>
-          <a href="index.html">Case 01</a>
-          <a href="product-page.html">商品ページ</a>
-          <a href="operation-sheet.html">運用管理</a>
-          <a href="sns-plan.html">SNS計画</a>
-        </nav>
+        <nav class="site-nav" aria-label="主要ナビゲーション">
+        <a href="../../index.html">トップ</a>
+        <a href="../../case-wazakka-ec.html" aria-current="page">和雑貨EC</a>
+        <a href="../../case-it-sales-pr.html">IT営業支援</a>
+        <a href="../../case-fashion-ec.html">ファッションEC</a>
+        <a href="../../ai-report.html">AI活用</a>
+        <a href="../../portfolio-summary.html">概要1枚</a>
+      </nav>
       </div>
     </header>
 
@@ -84,9 +85,18 @@
               <li><a href="product-page.html">商品ページサンプル</a>で、6商品の商品名・価格・素材・サイズ・配送目安・ギフト対応を確認する</li>
               <li><a href="operation-sheet.html">EC運用管理シート</a>で、商品登録シートと表記ゆれチェックの流れを見る</li>
               <li><a href="sns-plan.html">SNS投稿案</a>で、商品ページと矛盾しない紹介文を確認する</li>
-              <li><a href="../../docs/ai-report.html">AI活用レポート</a>で、AI案を本人が確認・修正する方針を見る</li>
+              <li><a href="../../ai-report.html">AI活用・本人確認レポート</a>で、AI案を本人が確認・修正する方針を見る</li>
             </ol>
           </div>
+          <article class="card">
+            <h2>このケースで自分が判断したこと</h2>
+            <ul class="checklist">
+              <li>応募業務に近い制作物を選定した</li>
+              <li>顧客・購入者が不安に思う情報を整理した</li>
+              <li>価格、在庫、日付、リンク、表記ゆれなど確認項目を設定した</li>
+              <li>面接で説明しやすい順番に並べた</li>
+            </ul>
+          </article>
         </div>
       </section>
 
@@ -168,6 +178,43 @@
               <p>
                 商品ページ、SNS投稿、運用管理シートの価格やギフト可否が一致しているかを確認します。
               </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="image-edit-heading">
+        <div class="container">
+          <span class="badge">商品画像加工 / 自主制作サンプル</span>
+          <h2 id="image-edit-heading">商品画像加工サンプル Before/After</h2>
+          <p class="showcase-note"><strong>この制作物で見せたい力:</strong> 実在商品画像を使わず、EC登録前に必要な明るさ、トリミング、余白、文字入れ、リサイズの確認観点を整理する力。</p>
+          <div class="image-edit-showcase" role="group" aria-label="CSS図形による商品画像加工のBefore/After例">
+            <article class="image-edit-card">
+              <h3>Before</h3>
+              <div class="mock-product mock-product-before" role="img" aria-label="暗く、余白と傾きが残っている和雑貨商品のプレースホルダー"></div>
+              <ul>
+                <li>全体が暗く、商品色が分かりにくい</li>
+                <li>余白が偏り、商品が小さく見える</li>
+                <li>バナーやSNS用の比率に合っていない</li>
+              </ul>
+            </article>
+            <article class="image-edit-card">
+              <h3>After</h3>
+              <div class="mock-product mock-product-after" role="img" aria-label="明るさ補正、トリミング、余白調整をした和雑貨商品のプレースホルダー"></div>
+              <ul>
+                <li>明るさ補正で素材感が見やすい</li>
+                <li>トリミングと余白調整で商品を中央に配置</li>
+                <li>商品名入りサムネイルとして使いやすい比率に調整</li>
+              </ul>
+            </article>
+            <article class="image-edit-card image-edit-card-wide">
+              <h3>バナー用リサイズ例</h3>
+              <div class="mock-resize-banner" role="img" aria-label="商品名入りサムネイルと横長バナーへリサイズしたプレースホルダー">
+                <span>京こもの日和</span>
+                <strong>ちりめん小雛飾り</strong>
+                <small>明るさ補正 / トリミング / 余白調整 / 商品名入りサムネイル / バナー用リサイズ</small>
+              </div>
+              <p class="operation-memo">実在商品画像は使わず、CSS図形で加工観点を再現しています。実務では既存ルールに沿った軽微な補正、差し替え、サイズ違いの展開から対応したいです。</p>
             </article>
           </div>
         </div>
@@ -508,7 +555,7 @@
           このページは転職応募用の自主制作です。掲載しているブランド・商品・サービスは架空のものであり、
           実在企業の業務実績ではありません。
         </p>
-        <p class="text-muted">&copy; Portfolio Rin</p>
+        <p class="text-muted">&copy; EC・Web運用サポート ポートフォリオ</p>
       </div>
     </footer>
 
