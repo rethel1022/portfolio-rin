@@ -798,6 +798,8 @@ tbody tr:nth-child(even) {
   display: grid;
   gap: 0.45rem;
   align-content: end;
+  min-width: 0;
+  max-width: 100%;
   min-height: 210px;
   padding: 1.1rem;
   overflow: hidden;
@@ -827,6 +829,9 @@ tbody tr:nth-child(even) {
 .banner-art a {
   position: relative;
   z-index: 1;
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 
 .banner-art span {
@@ -862,6 +867,7 @@ tbody tr:nth-child(even) {
   background: #4b4448;
   font-size: 0.9rem;
   font-weight: 700;
+  white-space: normal;
   text-decoration: none;
 }
 
