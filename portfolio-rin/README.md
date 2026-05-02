@@ -98,6 +98,7 @@ AIは、制作を丸投げするためではなく、案出し、文章整理、
 - `ai-report.html`
 - `checklist.html`
 - `portfolio-summary.html`
+- `README.md`
 
 内部確認用資料、`works/` 配下の重複詳細ページ、`report/` と `output/` のスクリーンショット出力は提出前の確認用として残していますが、GitHub Pagesの公開対象から除外します。
 
