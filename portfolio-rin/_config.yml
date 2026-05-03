@@ -4,5 +4,7 @@ exclude:
   - works
   - report
   - output
+  - screenshots
+  - private
   - .DS_Store
   - "**/.DS_Store"

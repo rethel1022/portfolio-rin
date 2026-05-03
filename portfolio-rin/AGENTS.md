@@ -34,14 +34,16 @@ React / Next.js / Vue / TypeScript は導入しません。npm依存、外部ラ
 - `assets/css/style.css` - サイト共通CSS
 - `assets/js/main.js` - ナビ開閉など最小限のJavaScript
 - `assets/images/` - 自作SVG、プレースホルダー、バナーサンプル
-- `works/01-wazakka-ec/` - アデコ向け和雑貨ECケース
-- `works/02-it-sales-pr/` - パソナ向けIT営業支援・企画事務・広報補助ケース
-- `works/03-ec-web-ops/` - リクルートスタッフィング向けWeb/EC運用ケース
-- `docs/` - AI活用レポート、応募先対応表、面接台本、見方ガイド
+- `case-wazakka-ec.html` - 和雑貨EC運営向けケース
+- `case-it-sales-pr.html` - IT営業支援・広報補助向けケース
+- `case-fashion-ec.html` - ファッションEC運用向けケース
+- `ai-report.html` - AI活用・本人確認レポート
+- `checklist.html` - 公開前・提出前チェックリスト
+- `portfolio-summary.html` - 提出用の概要1枚
 - `README.md` - プロジェクト説明と応募先別の見方
 - `AGENTS.md` - Codex作業ルール
 
-現行ケースや応募先想定を変更する場合は、`README.md`、`index.html`、`docs/portfolio-guide.html`、`docs/job-alignment.html`、`docs/interview-script.html`、作品一覧、各ページのナビゲーションを同時に確認する。
+現行ケースや応募先想定を変更する場合は、`README.md`、`index.html`、主要7ページ、各ページのナビゲーションを同時に確認する。
 
 ## 編集ルール
 
@@ -66,8 +68,10 @@ React / Next.js / Vue / TypeScript は導入しません。npm依存、外部ラ
 - `README.md`
 - `AGENTS.md`
 - `index.html`
-- `works/**/*.html`
-- `docs/*.html`
+- `case-*.html`
+- `ai-report.html`
+- `checklist.html`
+- `portfolio-summary.html`
 - `assets/css/style.css`
 - `assets/js/main.js`
 

@@ -1,4 +1,10 @@
 .DS_Store
-portfolio-rin/.DS_Store
-portfolio-rin/output/
+**/.DS_Store
+report/
+output/
+screenshots/
+private/
 portfolio-rin/report/
+portfolio-rin/output/
+portfolio-rin/screenshots/
+portfolio-rin/private/
