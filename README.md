@@ -27,7 +27,7 @@ JavaScriptはナビゲーション開閉など必要最小限です。高度な�
 ## ページ構成
 
 ```txt
-portfolio-rin/
+repository root/
   index.html
   case-wazakka-ec.html
   case-it-sales-pr.html
@@ -38,7 +38,7 @@ portfolio-rin/
   README.md
 ```
 
-内部確認用の補助ページは残していますが、提出時に案内する導線は上記の root 直下ページに統一しています。GitHub Pagesでは `_config.yml` の `exclude` で内部確認用ページ、重複詳細ページ、スクリーンショット出力を公開対象外にしています。
+提出時に案内する導線は上記の root 直下ページに統一しています。内部確認用資料や重複詳細ページは、公開リポジトリの現在のコード画面に含めない運用にしています。
 
 公開ナビは「トップ」「Case 01」「Case 02」「Case 03」「AI活用」「チェック」「概要1枚」に統一しています。内部確認用資料は提出用の公開ナビ、README、主要CTAからリンクしません。
 
@@ -100,13 +100,13 @@ AIは、制作を丸投げするためではなく、案出し、文章整理、
 - `portfolio-summary.html`
 - `README.md`
 
-内部確認用資料、`works/` 配下の重複詳細ページ、`report/` と `output/` のスクリーンショット出力は提出前の確認用として残していますが、GitHub Pagesの公開対象から除外します。
+内部確認用資料、重複詳細ページ、スクリーンショット出力は提出前のローカル確認用にとどめ、公開リポジトリの現在のコード画面とGitHub Pagesの公開対象には含めません。
 
 ## ローカルでの見方
 
 静的HTML/CSSサイトのため、ビルドや依存関係のインストールは不要です。
 
-1. `portfolio-rin/index.html` をブラウザで開く
+1. `index.html` をブラウザで開く
 2. トップページの応募先別カードから該当ケースを見る
 3. `ai-report.html` と `portfolio-summary.html` でAI補助と本人確認の分担、提出用の概要を見る
 4. 必要に応じて `portfolio-summary.html` をPDF化想定の概要として確認する
