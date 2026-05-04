@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Fashion EC promotion visual</title>
+  <desc id="desc">Original illustration of a fashion EC campaign page, size guide, banner cards, and analytics notes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7e7e9"/>
+      <stop offset="0.5" stop-color="#fbfaf6"/>
+      <stop offset="1" stop-color="#dff0ed"/>
+    </linearGradient>
+    <filter id="shadow" x="-12%" y="-18%" width="124%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#102a43" flood-opacity="0.13"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <rect x="142" y="112" width="916" height="536" rx="26" fill="#ffffff"/>
+    <rect x="190" y="164" width="430" height="216" rx="18" fill="#f7e7e9"/>
+    <path d="M294 340c28-98 68-148 120-148 54 0 92 50 122 148Z" fill="#dff0ed"/>
+    <path d="M374 204c6 30 22 48 48 54 26-6 42-24 48-54Z" fill="#ffffff" opacity="0.8"/>
+    <circle cx="514" cy="220" r="25" fill="#b58a36" opacity="0.28"/>
+    <rect x="190" y="426" width="212" height="14" rx="7" fill="#17324d"/>
+    <rect x="190" y="468" width="330" height="12" rx="6" fill="#d9e2dc"/>
+    <rect x="190" y="502" width="266" height="12" rx="6" fill="#d9e2dc"/>
+    <rect x="190" y="550" width="132" height="42" rx="10" fill="#176b6a"/>
+    <rect x="680" y="164" width="288" height="108" rx="16" fill="#17324d"/>
+    <rect x="716" y="202" width="92" height="12" rx="6" fill="#dff0ed"/>
+    <rect x="716" y="232" width="174" height="16" rx="8" fill="#ffffff"/>
+    <rect x="680" y="316" width="288" height="108" rx="16" fill="#f6edd8"/>
+    <rect x="716" y="354" width="100" height="12" rx="6" fill="#b58a36"/>
+    <rect x="716" y="384" width="166" height="10" rx="5" fill="#c9b57e"/>
+    <rect x="680" y="468" width="288" height="108" rx="16" fill="#dff0ed"/>
+    <rect x="716" y="506" width="102" height="12" rx="6" fill="#176b6a"/>
+    <rect x="716" y="536" width="182" height="10" rx="5" fill="#7ca9a5"/>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">和雑貨ECの商品登録と販促イメージ</title>
+  <desc id="desc">季節の和小物、商品登録シート、ギフト導線を自作図で表した架空EC運用の画像。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff7f8"/>
+      <stop offset="0.55" stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#e7f3f0"/>
+    </linearGradient>
+    <filter id="shadow" x="-12%" y="-12%" width="124%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#102a43" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="960" height="640" rx="34" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <rect x="114" y="114" width="360" height="392" rx="28" fill="#fff"/>
+    <rect x="526" y="116" width="300" height="392" rx="28" fill="#fff"/>
+  </g>
+  <rect x="152" y="152" width="284" height="190" rx="24" fill="#f7e7e9"/>
+  <path d="M252 302c26-78 54-130 84-156 28 32 48 80 56 144" fill="none" stroke="#b58a36" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="250" cy="228" r="38" fill="#fff"/>
+  <circle cx="340" cy="218" r="44" fill="#fff"/>
+  <rect x="214" y="310" width="170" height="18" rx="9" fill="#b58a36" opacity=".65"/>
+  <rect x="152" y="376" width="284" height="24" rx="12" fill="#dff0ed"/>
+  <rect x="152" y="420" width="214" height="18" rx="9" fill="#d9e2dc"/>
+  <rect x="152" y="452" width="246" height="18" rx="9" fill="#d9e2dc"/>
+  <rect x="564" y="154" width="224" height="42" rx="14" fill="#176b6a"/>
+  <rect x="586" y="216" width="132" height="16" rx="8" fill="#b8c7c1"/>
+  <rect x="586" y="254" width="168" height="16" rx="8" fill="#d9e2dc"/>
+  <rect x="586" y="292" width="126" height="16" rx="8" fill="#d9e2dc"/>
+  <rect x="586" y="348" width="170" height="76" rx="18" fill="#f6edd8"/>
+  <path d="M620 386h102M620 406h70" stroke="#7a632f" stroke-width="10" stroke-linecap="round"/>
+  <path d="M146 82c36 24 68 24 102 0" fill="none" stroke="#f0c5cb" stroke-width="16" stroke-linecap="round"/>
+  <path d="M704 532c42-28 88-28 130 0" fill="none" stroke="#dff0ed" stroke-width="18" stroke-linecap="round"/>
+</svg>

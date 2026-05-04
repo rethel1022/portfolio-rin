@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">EC・Web運用サポートの業務イメージ</title>
+  <desc id="desc">商品情報、SNS投稿、チェックリスト、AI補助を一つの作業机で整理する架空の運用サポート図。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e7f3f0"/>
+      <stop offset="0.54" stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#f7e7e9"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#102a43" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="960" height="640" rx="34" fill="url(#bg)"/>
+  <circle cx="812" cy="92" r="58" fill="#fff" opacity=".72"/>
+  <circle cx="96" cy="516" r="72" fill="#dff0ed" opacity=".86"/>
+  <g filter="url(#shadow)">
+    <rect x="128" y="94" width="704" height="452" rx="28" fill="#fff"/>
+  </g>
+  <rect x="166" y="132" width="352" height="250" rx="22" fill="#f3f6f5"/>
+  <rect x="190" y="158" width="132" height="104" rx="16" fill="#fff"/>
+  <rect x="212" y="178" width="86" height="48" rx="12" fill="#dff0ed"/>
+  <rect x="226" y="238" width="58" height="8" rx="4" fill="#176b6a" opacity=".7"/>
+  <rect x="348" y="158" width="132" height="104" rx="16" fill="#fff"/>
+  <rect x="372" y="178" width="84" height="48" rx="12" fill="#f6edd8"/>
+  <rect x="386" y="238" width="58" height="8" rx="4" fill="#b58a36" opacity=".75"/>
+  <rect x="190" y="292" width="290" height="18" rx="9" fill="#b8c7c1" opacity=".65"/>
+  <rect x="190" y="326" width="228" height="18" rx="9" fill="#d9e2dc"/>
+  <rect x="554" y="132" width="240" height="250" rx="22" fill="#17324d"/>
+  <rect x="586" y="168" width="176" height="18" rx="9" fill="#dff0ed"/>
+  <rect x="586" y="212" width="136" height="14" rx="7" fill="#fff" opacity=".82"/>
+  <rect x="586" y="246" width="152" height="14" rx="7" fill="#fff" opacity=".64"/>
+  <rect x="586" y="280" width="112" height="14" rx="7" fill="#fff" opacity=".72"/>
+  <rect x="586" y="326" width="96" height="28" rx="14" fill="#b58a36"/>
+  <rect x="166" y="414" width="174" height="86" rx="18" fill="#dff0ed"/>
+  <rect x="188" y="438" width="82" height="10" rx="5" fill="#176b6a"/>
+  <path d="M190 468h126" stroke="#176b6a" stroke-width="8" stroke-linecap="round" opacity=".55"/>
+  <rect x="390" y="414" width="174" height="86" rx="18" fill="#f7e7e9"/>
+  <path d="M420 458l28 28 76-78" fill="none" stroke="#176b6a" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="614" y="414" width="180" height="86" rx="18" fill="#f6edd8"/>
+  <circle cx="654" cy="457" r="18" fill="#b58a36"/>
+  <path d="M688 445h76M688 470h52" stroke="#7a632f" stroke-width="10" stroke-linecap="round"/>
+</svg>

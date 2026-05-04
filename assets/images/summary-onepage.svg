@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620" role="img" aria-labelledby="title desc">
+  <title id="title">ポートフォリオ概要1枚</title>
+  <desc id="desc">応募職種、3ケース、AI活用、公開前チェックを1枚にまとめた概要資料の図解。</desc>
+  <rect width="960" height="620" rx="36" fill="#f5faf9"/>
+  <g font-family="system-ui, sans-serif">
+    <rect x="230" y="58" width="500" height="504" rx="28" fill="#ffffff" stroke="#bed2cc"/>
+    <rect x="278" y="108" width="404" height="54" rx="14" fill="#102a43"/>
+    <text x="310" y="144" fill="#ffffff" font-size="25" font-weight="800">概要1枚</text>
+    <rect x="278" y="204" width="184" height="92" rx="18" fill="#dff0ed" stroke="#98c8c0"/>
+    <text x="310" y="258" fill="#0f4f55" font-size="24" font-weight="800">Case 01</text>
+    <rect x="498" y="204" width="184" height="92" rx="18" fill="#f6edd8" stroke="#e0c88f"/>
+    <text x="530" y="258" fill="#102a43" font-size="24" font-weight="800">Case 02</text>
+    <rect x="278" y="328" width="184" height="92" rx="18" fill="#f7e7e9" stroke="#d8bdc2"/>
+    <text x="310" y="382" fill="#102a43" font-size="24" font-weight="800">Case 03</text>
+    <rect x="498" y="328" width="184" height="92" rx="18" fill="#ffffff" stroke="#d9e2dc"/>
+    <text x="530" y="382" fill="#0f4f55" font-size="24" font-weight="800">AI・確認</text>
+    <path d="M288 474h280M288 504h212" stroke="#d9e2dc" stroke-width="14" stroke-linecap="round"/>
+  </g>
+</svg>
